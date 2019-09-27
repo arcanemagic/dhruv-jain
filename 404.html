@@ -274,18 +274,16 @@
     <script>
         // Video Init
         $(document).ready(function() {
-            if (!($("html").hasClass("mobile"))) {
-                var videobackground = new $.backgroundVideo($('.sm-video'), {
-                    "align": "centerXY",
-                    "width": 1920,
-                    "height": 1080,
-                    "path": "images/dj/",
-                    "filename": "Travolta", // FILE NAME of your video
-                    "types": ["mp4"],
-                    "autoplay": true,
-                    "loop": true
-                });
-            }
+            var videobackground = new $.backgroundVideo($('.sm-video'), {
+                "align": "centerXY",
+                "width": 1920,
+                "height": 1080,
+                "path": "images/dj/",
+                "filename": "Travolta", // FILE NAME of your video
+                "types": ["mp4"],
+                "autoplay": true,
+                "loop": true
+            });
         });
 
     </script>
